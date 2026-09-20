@@ -16,8 +16,35 @@ import voyageurImg from "../assets/Voyageur.png";
 import courtMetrageImg from "../assets/Court-métrage.png";
 import cartesImg from "../assets/Cartes.png";
 import streamingImg from "../assets/Streaming.png";
+import cervoiserieImg from "../assets/LaCervoiserie.jpg";
 
 const projects = [
+  {
+    date: { fr: "Juin 2026", en: "June 2026" },
+    title: {
+      fr: "Stage: refonte du site web de La Cervoiserie",
+      en: "Internship: redesign of La Cervoiserie website",
+    },
+    description: {
+      fr: "Le but de ce stage était de refondre le site web de La Cervoiserie, une grande franchise de bar en France.",
+      en: "The goal of this internship was to redesign the website of La Cervoiserie, a great franchise of bars in France.",
+    },
+    tags: { fr: ["WordPress", "Figma"], en: ["WordPress", "Figma", "Tailwind CSS"] },
+    image: cervoiserieImg,
+    imageAlt: "Aperçu du projet Cervoiserie",
+    imageLink:
+      "https://www.lacervoiserie.com/",
+    primaryLink: {
+      type: "online",
+      url: "https://www.lacervoiserie.com/",
+    },
+     secondaryLinks: [
+      {
+        type: "figma",
+        url: "https://www.figma.com/design/sMzcAYoyontsUb7l53LNeC/Refonte-site-web-La-Cervoiserie?node-id=0-1&t=FZPy1SxmSXFrLP36-1",
+      },
+    ],
+  },
   {
     date: { fr: "Octobre 2025", en: "October 2025" },
     title: {
@@ -225,6 +252,7 @@ const projects = [
       { type: "source", url: "https://github.com/ArthurDesmoulins/SAE2.03-Desmoulins" },
     ],
   },
+  
 ];
 
 export default projects;

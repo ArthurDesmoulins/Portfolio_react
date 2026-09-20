@@ -8,7 +8,7 @@ const translations = {
     hero: {
       eyebrow: "Portfolio",
       greeting: "Bonjour, je suis",
-      role: "étudiant en 2ème année MMI",
+      role: "étudiant en 3ème année MMI",
       tagline1: "Spécialisé dans la création multimédia.",
       tagline2: "MMI (Métiers du Multimédia et de l'Internet)",
       seeProjects: "Voir mes projets",
@@ -22,7 +22,7 @@ const translations = {
       paragraph1:
         "Passionné par la photographie, la lecture et la production audiovisuelle, également sportif (football), je suis curieux et autonome. J'apprécie le travail en équipe ainsi que la gestion de projets créatifs. Grâce à mes expériences associatives et professionnelles, j'ai acquis le sens des responsabilités, de l'adaptabilité et de la rigueur, que je mets au service de projets innovants et accessibles.",
       paragraph2:
-        "Je recherche un stage de 8 semaines à partir du 7 avril 2026 dans les secteurs suivants : – Création graphique et audiovisuelle (Photoshop, Illustrator, Premiere Pro), – Développement web (HTML, CSS, JavaScript, WordPress), – Stratégie de communication digitale (réseaux sociaux, gestion de contenus), – Travail collaboratif et gestion de projet (méthodes agiles, outils de gestion type Trello).",
+        "Je recherche un stage à partir du 7 février 2027 dans les secteurs suivants : – Création graphique et audiovisuelle (Photoshop, Illustrator, Premiere Pro), – Développement web (HTML, CSS, JavaScript, WordPress), – Stratégie de communication digitale (réseaux sociaux, gestion de contenus), – Travail collaboratif et gestion de projet (méthodes agiles, outils de gestion type Trello).",
     },
     skills: {
       title: "Compétences",
@@ -75,7 +75,7 @@ const translations = {
     hero: {
       eyebrow: "Portfolio",
       greeting: "Hi, I'm",
-      role: "2nd year MMI student",
+      role: "3rd year MMI student",
       tagline1: "Specialized in multimedia creation.",
       tagline2: "MMI (Multimedia and Internet Professions)",
       seeProjects: "See my projects",
@@ -89,7 +89,7 @@ const translations = {
       paragraph1:
         "Passionate about photography, reading and audiovisual production, also a football player, I'm curious and independent. I enjoy teamwork as well as managing creative projects. Through my volunteer and professional experience, I've developed a strong sense of responsibility, adaptability and rigor, which I put to use on innovative and accessible projects.",
       paragraph2:
-        "I'm looking for an 8-week internship starting April 7th, 2026 in the following fields: – Graphic and audiovisual creation (Photoshop, Illustrator, Premiere Pro), – Web development (HTML, CSS, JavaScript, WordPress), – Digital communication strategy (social media, content management), – Collaborative work and project management (agile methods, tools like Trello).",
+        "I'm looking for an internship starting February 7th, 2027 in the following fields: – Graphic and audiovisual creation (Photoshop, Illustrator, Premiere Pro), – Web development (HTML, CSS, JavaScript, WordPress), – Digital communication strategy (social media, content management), – Collaborative work and project management (agile methods, tools like Trello).",
     },
     skills: {
       title: "Skills",
