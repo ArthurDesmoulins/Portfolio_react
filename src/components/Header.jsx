@@ -28,7 +28,7 @@ export default function Header() {
           to="/"
           className="flex items-center gap-2 text-lg font-semibold tracking-tight"
         >
-          <img className="size-15 rounded-2xl" src={Logo} alt="Logo" />
+          <img className="h-12 w-18 rounded-2xl" src={Logo} alt="Logo" />
           <span className="text-emerald-400">Arthur's</span> Portfolio
         </Link>
 
