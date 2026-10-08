@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useLanguage } from "./LanguageContext";
 import translations from "./translations";
+import Logo from "../assets/Logo.png";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,7 +24,11 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-800 bg-slate-950/80 backdrop-blur">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
-        <Link to="/" className="text-lg font-semibold tracking-tight">
+        <Link
+          to="/"
+          className="flex items-center gap-2 text-lg font-semibold tracking-tight"
+        >
+          {/* <img className="size-15 rounded-2xl" src={Logo} alt="Logo" /> */}
           <span className="text-emerald-400">Arthur's</span> Portfolio
         </Link>
 

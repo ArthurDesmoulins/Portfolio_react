@@ -62,7 +62,7 @@ export default function HomePage() {
               <img
                 src={photoProfil}
                 alt="Photo de profil Arthur Desmoulins"
-                className="mx-auto mb-4 h-50 w-53 rounded-3xl"
+                className="mx-auto mb-4 h-63 w-53 rounded-3xl"
               />
               <h2 className="mb-1 text-center text-lg font-semibold">
                 Arthur Desmoulins
