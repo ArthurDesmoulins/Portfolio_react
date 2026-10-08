@@ -39,7 +39,7 @@ export default function HomePage() {
                 {t.hero.seeProjects}
               </Link>
               <a
-                href="https://drive.google.com/file/d/1kLQLfiY_6Y7vRJmLKmdYnt1ErgVopTXr/view?usp=sharing"
+                href={t.hero.resumeLink}
                 className="inline-flex items-center gap-2 rounded-xl border border-slate-700 px-5 py-2.5 text-sm font-medium transition hover:border-emerald-400 hover:text-emerald-400"
               >
                 {t.hero.downloadCV}
