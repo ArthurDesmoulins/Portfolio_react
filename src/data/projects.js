@@ -17,6 +17,7 @@ import courtMetrageImg from "../assets/Court-métrage.png";
 import cartesImg from "../assets/Cartes.png";
 import streamingImg from "../assets/Streaming.png";
 import cervoiserieImg from "../assets/LaCervoiserie.jpg";
+import heroImg from "../assets/Fight club.png";
 
 const projects = [
   {
@@ -56,7 +57,7 @@ const projects = [
       en: "The goal of this internship was to redesign the website of La Cervoiserie, a great franchise of bars in France.",
     },
     tags: { fr: ["Illustrator"], en: ["Illustrator"] },
-    image: cervoiserieImg,
+    image: heroImg,
     imageAlt: "Aperçu du projet Illustrator",
     imageLink:
       "",
@@ -72,28 +73,26 @@ const projects = [
     ],
   },
      {
-    date: { fr: "Juin 2026", en: "June 2026" },
+    date: { fr: "Octobre 2026", en: "October 2026" },
     title: {
-      fr: "Photoshop",
-      en: "Internship: redesign of La Cervoiserie website",
+      fr: "Couvertures pour le magasine Hero",
+      en: "Covers for Hero magazine",
     },
     description: {
-      fr: "Le but de ce stage était de refondre le site web de La Cervoiserie, une grande franchise de bar en France.",
-      en: "The goal of this internship was to redesign the website of La Cervoiserie, a great franchise of bars in France.",
+      fr: "Création de couvertures pour le magasine Hero en utilisant Photoshop.",
+      en: "Creation of covers for Hero magazine using Photoshop.",
     },
     tags: { fr: ["Photoshop"], en: ["Photoshop"] },
-    image: cervoiserieImg,
+    image: heroImg,
     imageAlt: "Aperçu du projet Photoshop",
     imageLink:
-      "",
+      "https://drive.google.com/file/d/1fWzzB3pXvIWKErxD0-qldNDI1M6gjIGc/view?usp=sharing",
     primaryLink: {
       type: "online",
-      url: "",
+      url: "https://drive.google.com/file/d/1fWzzB3pXvIWKErxD0-qldNDI1M6gjIGc/view?usp=sharing",
     },
      secondaryLinks: [
       {
-        type: "figma",
-        url: "https://www.figma.com/design/sMzcAYoyontsUb7l53LNeC/Refonte-site-web-La-Cervoiserie?node-id=0-1&t=FZPy1SxmSXFrLP36-1",
       },
     ],
   },
