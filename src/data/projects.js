@@ -48,7 +48,7 @@ const projects = [
     ],
   },
   {
-    date: { fr: "Juin 2026", en: "June 2026" },
+    date: { fr: "Octobre 2026", en: "October 2026" },
     title: {
       fr: "Visuel pour la ville de Limoges",
       en: "Visual for the city of Limoges",
