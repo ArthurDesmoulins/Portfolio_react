@@ -18,6 +18,7 @@ import cartesImg from "../assets/Cartes.png";
 import streamingImg from "../assets/Streaming.png";
 import cervoiserieImg from "../assets/LaCervoiserie.jpg";
 import heroImg from "../assets/Fight club.png";
+import illustratorImg from "../assets/Illustrator.png";
 
 const projects = [
   {
@@ -49,26 +50,24 @@ const projects = [
   {
     date: { fr: "Juin 2026", en: "June 2026" },
     title: {
-      fr: "Illustrator",
-      en: "Internship: redesign of La Cervoiserie website",
+      fr: "Visuel pour la ville de Limoges",
+      en: "Visual for the city of Limoges",
     },
     description: {
-      fr: "Le but de ce stage était de refondre le site web de La Cervoiserie, une grande franchise de bar en France.",
-      en: "The goal of this internship was to redesign the website of La Cervoiserie, a great franchise of bars in France.",
+      fr: "Le but de ce projet était de créer un visuel (mascotte) pour la ville de Limoges en utilisant Illustrator.",
+      en: "The goal of this project was to create a visual (mascot) for the city of Limoges using Illustrator.",
     },
     tags: { fr: ["Illustrator"], en: ["Illustrator"] },
-    image: heroImg,
+    image: illustratorImg,
     imageAlt: "Aperçu du projet Illustrator",
     imageLink:
-      "",
+      "https://drive.google.com/file/d/1W6vDv8T81n-uOEukAWw7aBFuj8gk1QqW/view?usp=sharing",
     primaryLink: {
       type: "online",
-      url: "https://www.lacervoiserie.com/",
+      url: "https://drive.google.com/file/d/1W6vDv8T81n-uOEukAWw7aBFuj8gk1QqW/view?usp=sharing",
     },
      secondaryLinks: [
       {
-        type: "figma",
-        url: "https://www.figma.com/design/sMzcAYoyontsUb7l53LNeC/Refonte-site-web-La-Cervoiserie?node-id=0-1&t=FZPy1SxmSXFrLP36-1",
       },
     ],
   },
@@ -195,24 +194,24 @@ const projects = [
     },
     secondaryLinks: [],
   },
-  {
-    date: { fr: "septembre 2025", en: "September 2025" },
-    title: { fr: "Maquette de site web", en: "Website mockup" },
-    description: {
-      fr: "Le but ici était de créer une maquette de site web pour une entreprise fictive d'huile d'olive de luxe en respectant des contraintes sur la charte graphique.",
-      en: "The goal here was to create a website mockup for a fictional luxury olive oil company, following constraints on the visual identity.",
-    },
-    tags: { fr: ["Figma"], en: ["Figma"] },
-    image: olivaImg,
-    imageAlt: "Aperçu du projet Oliva",
-    imageLink:
-      "https://www.figma.com/design/SafVuZTPRrs6LXbvO7pOkd/ARTHUR-DESMOULINS---Oliva?node-id=0-7&t=R2xIusAkkWXLWyP5-1",
-    primaryLink: {
-      type: "figma",
-      url: "https://www.figma.com/design/SafVuZTPRrs6LXbvO7pOkd/ARTHUR-DESMOULINS---Oliva?node-id=0-7&t=R2xIusAkkWXLWyP5-1",
-    },
-    secondaryLinks: [],
-  },
+  // {
+  //   date: { fr: "septembre 2025", en: "September 2025" },
+  //   title: { fr: "Maquette de site web", en: "Website mockup" },
+  //   description: {
+  //     fr: "Le but ici était de créer une maquette de site web pour une entreprise fictive d'huile d'olive de luxe en respectant des contraintes sur la charte graphique.",
+  //     en: "The goal here was to create a website mockup for a fictional luxury olive oil company, following constraints on the visual identity.",
+  //   },
+  //   tags: { fr: ["Figma"], en: ["Figma"] },
+  //   image: olivaImg,
+  //   imageAlt: "Aperçu du projet Oliva",
+  //   imageLink:
+  //     "https://www.figma.com/design/SafVuZTPRrs6LXbvO7pOkd/ARTHUR-DESMOULINS---Oliva?node-id=0-7&t=R2xIusAkkWXLWyP5-1",
+  //   primaryLink: {
+  //     type: "figma",
+  //     url: "https://www.figma.com/design/SafVuZTPRrs6LXbvO7pOkd/ARTHUR-DESMOULINS---Oliva?node-id=0-7&t=R2xIusAkkWXLWyP5-1",
+  //   },
+  //   secondaryLinks: [],
+  // },
   {
     date: { fr: "octobre 2025", en: "October 2025" },
     title: { fr: "Appli de rencontre sport", en: "Sports dating app" },
@@ -287,22 +286,22 @@ const projects = [
     },
     secondaryLinks: [],
   },
-  {
-    date: { fr: "Janvier 2025", en: "January 2025" },
-    title: { fr: "Site de streaming", en: "Streaming site" },
-    description: {
-      fr: "Le but de ce site était de créer un site de streaming avec un back-office fonctionnel, puis de reproduire le style d'un site de streaming existant.",
-      en: "The goal of this site was to build a streaming site with a functional back-office, then reproduce the style of an existing streaming site.",
-    },
-    tags: { fr: ["CSS", "HTML", "PHP"], en: ["CSS", "HTML", "PHP"] },
-    image: streamingImg,
-    imageAlt: "Aperçu du projet Streaming",
-    imageLink: "https://desmoulins-sae203.mmi-limoges.fr/",
-    primaryLink: { type: "online", url: "https://desmoulins-sae203.mmi-limoges.fr/" },
-    secondaryLinks: [
-      { type: "source", url: "https://github.com/ArthurDesmoulins/SAE2.03-Desmoulins" },
-    ],
-  },
+  // {
+  //   date: { fr: "Janvier 2025", en: "January 2025" },
+  //   title: { fr: "Site de streaming", en: "Streaming site" },
+  //   description: {
+  //     fr: "Le but de ce site était de créer un site de streaming avec un back-office fonctionnel, puis de reproduire le style d'un site de streaming existant.",
+  //     en: "The goal of this site was to build a streaming site with a functional back-office, then reproduce the style of an existing streaming site.",
+  //   },
+  //   tags: { fr: ["CSS", "HTML", "PHP"], en: ["CSS", "HTML", "PHP"] },
+  //   image: streamingImg,
+  //   imageAlt: "Aperçu du projet Streaming",
+  //   imageLink: "https://desmoulins-sae203.mmi-limoges.fr/",
+  //   primaryLink: { type: "online", url: "https://desmoulins-sae203.mmi-limoges.fr/" },
+  //   secondaryLinks: [
+  //     { type: "source", url: "https://github.com/ArthurDesmoulins/SAE2.03-Desmoulins" },
+  //   ],
+  // },
   
 ];
 
